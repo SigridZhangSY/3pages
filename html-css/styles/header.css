@@ -1,5 +1,5 @@
 .header {
-    background: url("../images/header.jpg") -70px -160px;
+    background: url("../images/header.jpg") -70px -160px no-repeat;
     text-align: center;
 }
 
