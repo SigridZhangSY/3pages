@@ -1,0 +1,39 @@
+.footer {
+    background: #161616;
+    text-align: center;
+}
+
+.footer .touch {
+    padding: 70px 0 90px 0;
+    border-bottom: solid #434343 1px;
+}
+
+.footer .touch .title {
+    font-size: 42px;
+    font-weight: 200;
+    color: white;
+}
+
+.footer .touch .text {
+    font-size: 24px;
+    font-weight: 200;
+    color: #434343;
+    margin-bottom: 50px;
+}
+
+.footer .touch .sns * {
+    margin-right: 20px;
+}
+
+.footer .touch .sns img:last-child{
+    margin: 0px;
+}
+.footer .copyright {
+    height: 110px;
+    color: #2d2d2d;
+    line-height: 110px;
+}
+
+.footer .copyright a {
+    color: #424242;
+}

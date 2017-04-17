@@ -1,0 +1,43 @@
+.header {
+    background: url("../images/header.jpg") -70px -160px;
+    text-align: center;
+}
+
+.nav {
+    height: 72px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.nav li {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: 1px solid white;
+}
+
+.nav li:last-child {
+    border-right: none;
+}
+
+.hero {
+    height: 495px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top: 172px;
+}
+
+.hero h5 {
+    font-size: 22px;
+    font-weight: 200;
+}
