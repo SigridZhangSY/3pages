@@ -173,6 +173,7 @@ header .toolbar .avatar img {
 .content .left .activities {
     width: 290px;
     align-items: flex-start;
+    padding-bottom: 30px;
 }
 
 .content .left .activities h3 {
@@ -394,6 +395,26 @@ header .toolbar .avatar img {
     border: solid #cccccc 1px;
     padding: 3px 6px;
     font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 441px){
+    .content .left {
+        bottom: auto;
+    }
+
+    .content .right {
+        left: 0;
+        top: 890px;
+        bottom: 0;
+    }
+
+    .content .center {
+        padding-right: 0px;
+    }
+
+    .content .right .trends {
+        display: none;
+    }
 }
 
 
