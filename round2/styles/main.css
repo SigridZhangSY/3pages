@@ -265,7 +265,6 @@ header .toolbar .avatar img {
     border-radius: 50%;
 }
 
-
 .content .center .listWrapper li article {
     margin-left: 20px;
     color: #8c8c8c;
@@ -341,17 +340,18 @@ header .toolbar .avatar img {
     font-size: 16px;
     color: #8c8c8c;
 }
+
 .content .right .trends ul {
     padding: 20px 0;
 }
 
-.content .right .trends ul li a{
+.content .right .trends ul li a {
     font-size: 14px;
     color: #81aad3;
     text-decoration: underline;
 }
 
-.content .right .follow .title{
+.content .right .follow .title {
     display: flex;
     justify-content: space-between;
     padding: 10px 0 30px 0;
@@ -359,16 +359,16 @@ header .toolbar .avatar img {
     color: #8c8c8c;
 }
 
-.content .right .follow .title a{
+.content .right .follow .title a {
     color: #81aad3;
 }
 
-.content .right .follow ul li{
+.content .right .follow ul li {
     display: flex;
     padding-bottom: 15px;
 }
 
-.content .right .follow ul li img{
+.content .right .follow ul li img {
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -388,7 +388,7 @@ header .toolbar .avatar img {
     color: #cccccc;
 }
 
-.content .right .follow ul li .follow-button{
+.content .right .follow ul li .follow-button {
     color: #8c8c8c;
     width: 22px;
     height: 22px;
@@ -397,7 +397,7 @@ header .toolbar .avatar img {
     font-size: 14px;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 441px){
+@media screen and (max-width: 1000px) and (min-width: 441px) {
     .content .left {
         bottom: auto;
     }
@@ -414,6 +414,50 @@ header .toolbar .avatar img {
 
     .content .right .trends {
         display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    header .link {
+        display: none;
+    }
+
+    .content .left {
+        display: none;
+    }
+
+    .content .right {
+        display: none;
+    }
+
+    .content .center {
+        padding: 40px 0 0 0;
+    }
+
+    header .toolbar {
+        width: auto;
+    }
+
+    header .toolbar .searchBar {
+        display: none;
+    }
+
+    header .toolbar .avatar {
+        padding-right: 40px;
+    }
+
+    .content .center > div {
+        padding: 0;
+    }
+
+    .content .center .basicInfo {
+        display: block;
+        height: auto;
+    }
+
+    .content .center .basicInfo li {
+        height: 86px;
     }
 }
 
